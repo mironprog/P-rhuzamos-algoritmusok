@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int sum(int array[], int n);
+
+int main() {
+
+    int tomb[];
+    int n=3;
+
+    int sumofarray;
+    sumofarray=sum(tomb[n], 3);
+
+}
+
+int sum(int array[], int count){
+
+    int sum = 0;
+   
+
+    for(int i = 0; i < array[count]; i++){
+        sum += array[i];
+    }
+
+    return sum;
+}
