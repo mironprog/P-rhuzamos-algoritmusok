@@ -13,6 +13,5 @@ OpenMP:
     -Párhuzamosított program, amely nagy adatállományokat dolgoz fel és számít ki egyszerű statisztikai mutatókat, az átlagot, a mediánt és a szórását.  
 
 pthread:  
-    -Két négyzetes mátrix összeszorzása Posix szálak segítségével.
-
+    -Párhuzamosított program, amely párhuzamosan becsüli a pi értékét az Monte-Carlo-módszer segítségével. Az algoritmus véletlenszerű pontokat generál egy négyzetben, majd meghatározza, hogy mennyi pont esik a négyzet körtelében.
 
