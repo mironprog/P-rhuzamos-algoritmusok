@@ -15,4 +15,7 @@ OpenMP:
 pthread:  
     -Két négyzetes mátrix összeszorzása Posix szálak segítségével.
 
+Java:
+    -Olyan verseny, ahol a versenyzők különböző helyszíneken gyűjthetnek pontokat.
+
 
