@@ -41,6 +41,23 @@ int main() {
         }
     }
 
+    printf("A matrix:\n");
+    for (int i = 0; i < MATRIX_SIZE; i++) {
+        for (int j = 0; j < MATRIX_SIZE; j++) {
+            printf("%d ", matrix_a[i][j]);
+        }
+        printf("\n");
+    }
+
+    printf("B matrix:\n");
+    for (int i = 0; i < MATRIX_SIZE; i++) {
+        for (int j = 0; j < MATRIX_SIZE; j++) {
+            printf("%d ", matrix_b[i][j]);
+        }
+        printf("\n");
+    }
+
+
     // Divide work among threads
     int rows_per_thread = MATRIX_SIZE / NUM_THREADS;
     int row_start = 0;
